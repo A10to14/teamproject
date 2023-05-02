@@ -11,7 +11,7 @@ while count:
         # Ball은 숫자는 맞췄으나 위치만 틀린 경우
         elif a[i] in baseNum:
             checkDict['B'] += 1
-
+    
     # strike, ball 카운트를 출력한다
     print(f"{checkDict['S']}S, {checkDict['B']}B")
 
